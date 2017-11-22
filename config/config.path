@@ -1,0 +1,7 @@
+project_root = "/root/Work/project_w/server_w/"
+root = "/root/Work/project_w/skynet/"
+luaservice = root.."service/?.lua;"..project_root.."service/?.lua;"..project_root.."temp_test/?.lua"
+lualoader = root .. "lualib/loader.lua"
+lua_path = root.."lualib/?.lua;"..root.."lualib/?/init.lua;"..project_root.."lib/?.lua"
+lua_cpath = root .. "luaclib/?.so"
+snax = root.."examples/?.lua;"..root.."test/?.lua"

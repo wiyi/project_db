@@ -1,0 +1,1 @@
+/root/work/project_w/skynet/skynet ./config/config_w
